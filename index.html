@@ -1,10 +1,16 @@
 <!DOCTYPE html>
 <html>
-<head lang="en">
+<head lang="en" ng-app="mainApp">
     <meta charset="UTF-8">
     <title></title>
+    <link rel="stylesheet" href="./commond/css/index.css"/>
+    <script src="commond/js/angular.min.js"></script>
+    <script src="commond/js/angular-route.min.js"></script>
+    <script src="commond/js/main.js"></script>
 </head>
 <body>
-
+    <div class="head"></div>
+    <div ng-view></div>
+    <div class="footer"></div>
 </body>
 </html>
