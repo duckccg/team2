@@ -1,11 +1,13 @@
 /**
  * Created by Administrator on 15-11-20.
  */
-var mainApp = angular.module("mainApp",["ngRoute","homeModule","aboutModule"]);
+var mainApp = angular.module("mainApp",["ngRoute","homeModule","aboutModule","clientsModule","projectsModule"]);
 
 mainApp.config(["$routeProvider",function($routeProvider){
     $routeProvider.when("/home",{templateUrl:"ccg_Home/home.html",controller:"homeController"});
     $routeProvider.when("/about",{templateUrl:"zhaoyong_About/about.html",controller:"aboutController"});
+    $routeProvider.when("/clients",{templateUrl:"yangmei_Clients/clients.html",controller:"clientsController"});
+    $routeProvider.when("/projects",{templateUrl:"xudechuan_Projects/project.html",controller:"projectsController"});
 
     $routeProvider.otherwise({
         redirectTo:"/home"
@@ -27,6 +29,7 @@ mainApp.controller("navController",function($scope,$location){
         $scope.projectscolor = "";
         $scope.clientscolor = "";
         $scope.concactscolor = "";
+        $location.path("/home")
     };
     $scope.clickabout = function(){
         $scope.homecolor="";
@@ -35,6 +38,7 @@ mainApp.controller("navController",function($scope,$location){
         $scope.projectscolor = "";
         $scope.clientscolor = "";
         $scope.concactscolor = "";
+        $location.path("/about")
     };
     $scope.clickservices = function(){
         $scope.homecolor="";
@@ -43,7 +47,7 @@ mainApp.controller("navController",function($scope,$location){
         $scope.projectscolor = "";
         $scope.clientscolor = "";
         $scope.concactscolor = "";
-    }
+    };
     $scope.clickprojects = function(){
         $scope.homecolor="";
         $scope.aboutcolor = "";
@@ -51,7 +55,8 @@ mainApp.controller("navController",function($scope,$location){
         $scope.projectscolor = "#000000";
         $scope.clientscolor = "";
         $scope.concactscolor = "";
-    }
+        $location.path("/projects")
+    };
     $scope.clickclients = function(){
         $scope.homecolor="";
         $scope.aboutcolor = "";
@@ -59,7 +64,8 @@ mainApp.controller("navController",function($scope,$location){
         $scope.projectscolor = "";
         $scope.clientscolor = "#000000";
         $scope.concactscolor = "";
-    }
+        $location.path("/clients")
+    };
     $scope.clickconcacts = function(){
         $scope.homecolor="";
         $scope.aboutcolor = "";

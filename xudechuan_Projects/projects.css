@@ -1,0 +1,9 @@
+section{width: 100%;font-size: 13px}
+section .content{margin: 0 25px 0 25px;width: 100%;overflow: hidden}
+section .content h3{margin: 42px 0 12px 0}
+section .content table{width: 100%}
+section .content table img{margin: 0 0 10px 0}
+section .content table p{width: 280px;line-height: 24px;}
+section .content table p b,
+section .content table p a{color: #44a7bb}
+section .content table p a:hover{color: red}

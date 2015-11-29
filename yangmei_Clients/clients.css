@@ -1,0 +1,18 @@
+section .content{margin: 0 25px 0 25px;width: 100%;overflow: hidden;font-size: 13px}
+section .content .left{float: left;width: 310px;}
+section .content .left h3{margin: 40px 0 10px 0;}
+section .content .left li{background: url("commond/images/marker.gif") no-repeat 12px 14px}
+section .content .left a{line-height: 32px;color: #000000;margin: 0 0 0 30px}
+section .content .left a:hover{color: red;}
+section .content .right{float: left;width: 580px;line-height: 24px;}
+section .content .right h3{margin: 40px 0 10px 0}
+section .content .right img{float: left;margin: 0 20px 0 0}
+section .content .right input{border-radius:3px;color: #ffffff;border: none;cursor: pointer;width:72px;height:30px;background: #55b7c8;margin: 15px auto 0 auto}
+section .content .right input:hover{background: #43a9bb}
+section .content .bottom{margin: 75px 0 0 0;}
+section .content .bottom h3{margin-bottom: 15px}
+section .content .bottom li{float: left;margin-right: 20px}
+section .content .bottom li img{border: none;margin-bottom: 50px}
+a{
+    text-decoration: none;
+}

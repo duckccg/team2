@@ -1,0 +1,17 @@
+.content{margin: 0 25px 0 25px;width: 100%;font-size: 13px}
+.content .contentTop .tab1{width: 100%;margin: 40px 0 0 0;line-height: 24px;}
+.content .contentTop .tab1 p{width: 280px;}
+.content .contentTop .tab1 .tab2 p{width: 230px;}
+.content .contentTop .tab1 h3{margin: 0 0 10px 0;font-size: 20px;}
+.content .contentTop .tab1 .tab2 p{float: left;width: 230px;}
+.content .contentTop .tab1 .tab2 p:first-child{color:#44a7bb;float: left;width: 50px}
+.content .contentTop .tab1 input{border-radius:3px;color: #ffffff;border: none;cursor: pointer;width:72px;height:30px;background: #55b7c8;margin: 15px auto 0 auto}
+.content .contentTop .tab1 input:hover{background: #43a9bb}
+.content .contentTop .tab1 .right p{margin-right: 25px}
+.content .contentTop .tab1 .right li{background: url("commond/images/marker.gif") no-repeat 12px 14px}
+.content .contentTop .tab1 .right a{margin: 0 0 0 30px;color: #000000;line-height: 32px}
+.content .contentTop .tab1 .right a:hover{color: red}
+.content .contentBottom h3{margin: 75px 0 0 0;font-size: 20px}
+.content .contentBottom table{margin: 15px 0 60px 0}
+.content .contentBottom p{width: 210px;line-height: 24px}
+.content .contentBottom .name{color: #44a7bb;margin: 15px 0 0 0}

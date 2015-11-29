@@ -97,3 +97,7 @@ li{
     color: white;
     text-align: center;
 }
+#main{
+    width: 941px;
+    margin: auto;
+}
