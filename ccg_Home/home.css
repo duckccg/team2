@@ -1,0 +1,108 @@
+div{
+    /*outline: solid 1px #ff0000;*/
+}
+.home{
+    margin: auto;
+    width: 940px;
+    height: 1260px;
+}
+.shuff{
+    width: 940px;
+    height: 393px;
+    border:#ebebec 1px solid ;
+    border-radius: 3px;
+    box-shadow: 0 0 0 3px #ebebec;
+    position: relative;
+    overflow: hidden;
+}
+.imgshuff{
+    position: absolute;
+    width: 2820px;
+}
+.imgshuff img{
+    position: absolute;
+}
+.imgpoint{
+    line-height: 50px;
+    width: 100%;
+    background-color: rgba(255,255,255,0.4);
+    height: 50px;
+    position: absolute;
+    top: 100%;
+    margin-top: -50px;
+}
+.imgpoint div{
+    display: inline-block;
+    width: 23px;
+    height: 21px;
+    vertical-align: middle;
+    background: url("../commond/images/pagination.png");
+}
+.imgpoint .img1{
+    margin-left: 40px;
+}
+.imgpoint .img1{
+    background-position: 0 0;
+}
+.imgpoint .img2{
+    background-position: 23px 0;
+}
+.imgpoint .img3{
+    background-position: 23px 0;
+}
+.showway{
+    width: 915px;
+    padding-left: 25px;
+    height: 155px;
+    padding-top: 25px;
+    border-bottom: 1px solid #dddddf;
+}
+.showway p{
+    font-size: 10px;
+    line-height: 25px;
+}
+.showway span{
+    color: #44a7bb;
+}
+.workforyou{
+    width: 915px;
+    padding-left: 25px;
+    padding-top: 20px;
+}
+.workforyou img{border: 1px solid #ebebec;
+                border-radius: 3px;
+                box-shadow: 0 0 0 3px #ebebec}
+.workforyou p{
+    line-height: 25px;
+    font-size: 10px;
+}
+.workforyou div{
+    width: 270px;
+    margin-right: 33px;
+   float: left;
+}
+.workforyou input{
+    border: 0;
+    width: 73px;
+    height: 30px;
+    font-size: 10px;
+    line-height: 30px;
+    text-align: center;
+    color: white;
+    background-color: #55b7c8;
+    border-radius: 4px;
+    margin-bottom: 40px;
+}
+.workforyou input:hover{
+    background-color: deepskyblue;
+}
+.workforyou .business1{
+    width: 430px;
+    float: left;
+    background-color: white;
+}
+.workforyou .business2{
+    width: 419px;
+    float: left;
+    background-color: white;
+}
