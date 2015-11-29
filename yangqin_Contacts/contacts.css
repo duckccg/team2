@@ -1,0 +1,67 @@
+
+
+/*----------------����------------*/
+section{
+    width: 100%;font-size: 13px;
+}
+section .content{
+    margin: 0 25px 0 25px;
+    width: 100%;
+    overflow: hidden;
+}
+section .content .left{
+    width: 300px;
+    float: left;
+    line-height: 24px;
+    margin: 0 0 40px 0;
+}
+section .content h3{
+    margin:40px 0 10px 0;
+}
+section .content .left textarea{
+    margin: 0 0 20px 0;
+    width:270px;height:190px;
+    resize: none;
+    border: 3px solid #ebebec;
+    outline: none;
+    border-radius: 5px;
+}
+section .content .left b{
+    font-family: "΢���ź�", Arial;
+}
+section .content .left a{
+    color: #44a7bb;
+}
+section .content .left a:hover{color: red}
+section .content .right{
+    width: 580px;float: left;
+}
+section .content .right form div input{
+    width: 360px;
+    height: 30px;
+    border: 1px solid #ebebec;
+    border-radius: 3px;
+    outline: none;
+    margin: 0 0 10px 0;
+}
+section .content .right form textarea{
+    width: 570px;
+    height: 190px;
+    border: 1px solid #ebebec;
+    outline: none;
+    border-radius: 6px;
+}
+section .content .right a input{
+    border-radius:3px;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    width:72px;
+    height:30px;
+    background: #55b7c8;
+    margin: 15px auto 0 auto;}
+section .content .right a input:hover{
+    background: #43a9bb;
+}
+/*---------------footer-------------*/
+
