@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font: 13px arial;
+}
+body{
+    background: #000000;
+}
+a{
+    text-decoration: none
+}
+a:hover{
+    text-decoration: underline
+}
+ul,li{
+    list-style: none
+}
+img{
+    border: 3px solid #ebebec;
+    border-radius: 4px
+}
+h3{
+    font-size: 20px;
+}
+.out{
+    width: 100%;
+    min-width: 948px;
+    margin: 5px 0 0 0;
+    background: url("../../commond/images/main.jpg");
+}
+.wrapper{
+    width: 948px;
+    margin: 0 auto;
+}
+/*------------------¶¥²¿---------------*/
+.logo{
+    height: 126px;
+    background: url("../../commond/images/logo.png") no-repeat 14px 28px;
+}
+.logo input{
+    background: url("../../commond/images/search-button.png") no-repeat 212px 0;
+    border-radius: 4px;
+    width:240px;height:30px;
+    border: 1px solid #d9d9db;
+    outline: none;float: right;
+    margin: 60px 30px 0 0;
+}
+header{
+    height: 64px;
+    width: 940px;
+    border: 4px solid #ebebec;
+    border-radius: 4px
+}
+header div{
+    position:relative;
+    overflow: hidden;
+    height: 64px;
+    background: url("../../commond/images/nav.jpg");
+    border-radius: 4px;
+}
+header div li{
+    border-right:1px solid #4eabbc;
+    cursor: pointer;float: left;
+    width: 100px;text-align: center;
+    line-height: 64px;
+    vertical-align: bottom
+}
+header div .home{
+    width: 64px;
+    height:64px;
+    background: url("../../commond/images/hhh_03.png") no-repeat 22px 20px;
+}
+header div .home:hover{
+    background: url("../../commond/images/home1_03.png") no-repeat 22px 20px #1a1a1a;
+}
+header div li a{
+    color: #ffffff;
+}
+header div li:hover{
+    background: url("../../commond/images/current.jpg")
+}
+header div .right{
+    position:absolute;
+    top: 50%;
+    right: 30px;
+    transform: translateY(-50%);
+    border: none;
+}
+/*----------------ÄÚÈÝ------------*/
+section{
+    width: 100%;
+}
+section .content{
+    margin: 0 25px 0 25px;
+    width: 100%;
+    overflow: hidden;
+}
+section .content .left{
+    width: 300px;
+    float: left;
+    line-height: 24px;
+    margin: 0 0 40px 0;
+}
+section .content h3{
+    margin:40px 0 10px 0;
+}
+section .content .left textarea{
+    margin: 0 0 20px 0;
+    width:270px;height:190px;
+    resize: none;
+    border: 3px solid #ebebec;
+    outline: none;
+    border-radius: 5px;
+}
+section .content .left b{
+    font-family: "Î¢ÈíÑÅºÚ", Arial;
+}
+section .content .left a{
+    color: #44a7bb;
+}
+section .content .left a:hover{color: red}
+section .content .right{
+    width: 580px;float: left;
+}
+section .content .right form div input{
+    width: 360px;
+    height: 30px;
+    border: 1px solid #ebebec;
+    border-radius: 3px;
+    outline: none;
+    margin: 0 0 10px 0;
+}
+section .content .right form textarea{
+    width: 570px;
+    height: 190px;
+    border: 1px solid #ebebec;
+    outline: none;
+    border-radius: 6px;
+}
+section .content .right a input{
+    border-radius:3px;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    width:72px;
+    height:30px;
+    background: #55b7c8;
+    margin: 15px auto 0 auto;}
+section .content .right a input:hover{
+    background: #43a9bb;
+}
+/*---------------footer-------------*/
+footer{
+    width: 100%;
+    background: #000000;
+    min-width: 948px;
+    padding: 30px 0 40px 0;
+    text-align: center;
+}
+footer p{
+    font-size: 13px;
+    color: #ffffff;
+    line-height: 24px;
+}
+footer p a{
+    color: #44a7bb;
+}
+footer p a:hover{
+    color: red;
+    text-decoration: underline;
+}
